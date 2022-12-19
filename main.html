@@ -13,7 +13,7 @@
 	</Header>
 	<main>
 		<div>
-			<form action="./main.html" method="post" >
+			<form action="./main.html" method="post" id="form">
 				<label for="name" id="name">Name</label><br>
 				<input type="text" placeholder="Name" id="name" required><br><br>
 				<label for="phone">Phone Number</label><br>
@@ -28,7 +28,7 @@
 					<option value="labra">Labra Dog</option>
 					<option value="pug">Pug</option>
 				</select><br><br>
-				<button type="submit" id="submit" value="Submit">Submit</button>
+				<button type="submit" id="submit" value="Submit" form="form">Submit</button>
 			</form>
 		</div>
 	</main>
